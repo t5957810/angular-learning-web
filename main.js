@@ -541,12 +541,12 @@ var LayoutService = /** @class */ (function () {
     }
     LayoutService.prototype.getApiData = function () {
         return this.httpClient
-            .get('/dataset/6360f2bd-e43e-4584-a3d8-970c4872f071/resource/c9485ba6-b291-44c6-a3d3-5f530941d4d9/download/20180807171825760.json');
+            .get('https://opendata.hccg.gov.tw/dataset/6360f2bd-e43e-4584-a3d8-970c4872f071/resource/c9485ba6-b291-44c6-a3d3-5f530941d4d9/download/20180807171825760.json');
     };
     LayoutService.prototype.getTaipeiApiData = function () {
         // return this.httpClient.get('/opendata/datalist/apiAccess?scope=resourceAquire&rid=0b544701-fb47-4fa9-90f1-15b1987da0f5');
         return this.httpClient
-            .get('http://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=0b544701-fb47-4fa9-90f1-15b1987da0f5');
+            .get('https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=0b544701-fb47-4fa9-90f1-15b1987da0f5');
     };
     LayoutService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
